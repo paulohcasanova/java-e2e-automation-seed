@@ -4,11 +4,8 @@ package scenarios;
 import configurations.TestBase;
 import constants.DriverEnum;
 import org.junit.Test;
-import org.junit.experimental.theories.Theories;
-import org.junit.runner.RunWith;
 import workflows.Workflow;
 
-@RunWith(Theories.class)
 public class secondTest extends TestBase {
 
     public secondTest(){
