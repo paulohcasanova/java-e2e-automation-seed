@@ -11,8 +11,8 @@
 
 Example:
 
-![picture](Images/TestMethod.PNG)
-![picture](Images/TestMethod_2.PNG)
+![picture](Images/TestMethod.png)
+![picture](Images/TestMethod_2.png)
 
 
 **Workflow Layer:**
@@ -21,7 +21,7 @@ Example:
 
 Example:
 
-![picture](Images/Workflow.PNG)
+![picture](Images/Workflow.png)
 
 **Benefits of above combination Scenarios + Workflow :**
 - *One, well parameterized, Workflow can be used by multiple Test Scenarios.*
@@ -36,7 +36,7 @@ Example:
 
 Example:
 
-![picture](Images/PageObject.PNG)
+![picture](Images/PageObject.png)
 
 **Data Driven (optional) Layer:**
 - **IN CONSTRUCTION**
