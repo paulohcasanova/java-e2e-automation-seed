@@ -1,5 +1,10 @@
 package Utils;
 
+import java.io.IOException;
+
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class CommonMethods {
 
     public static String getMonthNum(String month) throws Exception {
@@ -50,6 +55,12 @@ public class CommonMethods {
             builder.append(alpha_numeric.charAt(character));
         }
         return builder.toString();
+    }
+
+    public static <T> T toObject(String json, Class<T> objectType) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        return mapper.readValue(json, objectType);
     }
 
     public static String randomNumAsString(int quant){
